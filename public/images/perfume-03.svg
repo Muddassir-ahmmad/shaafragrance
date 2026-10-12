@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1150">
+  <defs>
+    <linearGradient id="ground" x2="0" y2="1">
+      <stop stop-color="#cdc9bd"/>
+      <stop offset="1" stop-color="#a9aa9c"/>
+    </linearGradient>
+    <linearGradient id="glass" x2="1" y2="1">
+      <stop stop-color="#e6e6d8" stop-opacity=".9"/>
+      <stop offset=".45" stop-color="#848879" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#40463d" stop-opacity=".94"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1150" fill="url(#ground)"/>
+  <circle cx="170" cy="180" r="260" fill="#eeeadc" opacity=".29"/>
+  <path d="M95 829q96-201 170-225m-109 160q-62-131-104-145m158 81q21-126 97-187" fill="none" stroke="#596251" stroke-width="10" opacity=".4"/>
+  <ellipse cx="450" cy="954" rx="245" ry="42" fill="#30352d" opacity=".24" filter="url(#shadow)"/>
+  <rect x="386" y="237" width="128" height="129" rx="20" fill="#393c35"/>
+  <rect x="403" y="211" width="94" height="38" rx="9" fill="#777b6b"/>
+  <rect x="242" y="330" width="416" height="566" rx="52" fill="url(#glass)" stroke="#f3f1e5" stroke-opacity=".72" stroke-width="5"/>
+  <rect x="270" y="363" width="360" height="499" rx="37" fill="#d8ddcf" fill-opacity=".15" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+  <path d="M276 382Q287 354 316 353V834Q281 817 276 791Z" fill="#fff" opacity=".2"/>
+  <rect x="321" y="530" width="258" height="196" fill="#e5e4d9" fill-opacity=".95"/>
+  <text x="450" y="601" text-anchor="middle" fill="#4b5047" font-family="Georgia,serif" font-size="27" letter-spacing="6">SCENT 03</text>
+  <path d="M375 633h150" stroke="#868a7a"/>
+  <text x="450" y="672" text-anchor="middle" fill="#6c7164" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">IMAGE PLACEHOLDER</text>
+</svg>
